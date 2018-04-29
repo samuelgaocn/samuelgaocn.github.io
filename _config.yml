@@ -10,7 +10,7 @@ name: "SamuelGaoBlog"
 url: http://blog.samuelgao.win
 domain: blog.samuelgao.win
 all_categories: [
-["android", "Android开发","/posts/android.html"], 
+["android", "Android的开发","/posts/android.html"], 
 ["program", "软件编程","/posts/program.html"],
 ["web", "Web建站","/posts/web.html"], 
 ["linux", "Linux相关","/posts/linux.html"],
