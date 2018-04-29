@@ -2,7 +2,7 @@ Jekyll博客模板
 ================
 
 #### 1.浏览
-http://www.panxw.com, 支持PC与智能机访问。  
+http://blog.samuelgao.win, 支持PC与智能机访问。  
 
 #### 2.模板使用
 修改_config.yml与_includes目录下相关文件进行配置。  
