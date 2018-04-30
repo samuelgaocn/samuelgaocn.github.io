@@ -5,11 +5,11 @@ title:  “Python 微信测试"
 tags: [Python,Wechat]
 ---
  
-         #coding=utf8
+     #coding=utf8
      import requests
      import itchat
      
-     KEY = '8edce3ce905a4c1dbb965e6b35c3834d'
+     KEY = '3e0a60a47d5a4fbe821f9bab6e0cc6e2'
      
      def get_response(msg):
          # 这里我们就像在“3. 实现最简单的与图灵机器人的交互”中做的一样
@@ -42,6 +42,6 @@ tags: [Python,Wechat]
          return reply or defaultReply
      
      # 为了让实验过程更加方便（修改程序不用多次扫码），我们使用热启动
-     itchat.auto_login(hotReload=True)
+     itchat.auto_login(True, enableCmdQR=2)
      itchat.run()
      

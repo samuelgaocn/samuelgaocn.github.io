@@ -1,0 +1,29 @@
+---
+layout: post
+category: "read"
+title:  Vagex 挂机
+tags: [挂机,Vages]
+---
+	http://vagex.com/?ref=318303
+	
+    	可将下面的两组代码全粘进去
+    重启vnc（提高挂机效率2.10更新）
+    15 * * * * rm -rf /root/.vnc/*.log
+    16 * * * * killall -9 firefox
+    17 * * * * export DISPLAY=:1;firefox
+    30 * * * * rm -rf /root/.vnc/*.log
+    31 * * * * killall -9 firefox
+    32 * * * * export DISPLAY=:1;firefox
+    45 * * * * rm -rf /root/.vnc/*.log
+    46 * * * * killall -9 firefox
+    47 * * * * export DISPLAY=:1;firefox
+    
+    重启vps
+    00 00 * * * rm -rf /root/.vnc/*.log
+    01 00 * * * reboot
+    00 06 * * * rm -rf /root/.vnc/*.log
+    01 06 * * * reboot
+    00 12 * * * rm -rf /root/.vnc/*.log
+    01 12 * * * reboot
+    00 18 * * * rm -rf /root/.vnc/*.log
+    01 18 * * * reboot
