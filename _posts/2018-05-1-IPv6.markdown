@@ -1,0 +1,51 @@
+---
+layout: post
+category: "read"
+title:  Linux  IPV6
+tags: [Linux,IPv6]
+---
+	ping6 ipv6.google.com
+
+    Details IPv4
+    NetMask:	255.255.255.0
+    Gateway:	80.211.1.1
+    Reverse DNS:	Not configured
+    Estimate per month	0.00	Euro
+    Cost per hour	0.00	Euro / hr
+    Details IPv6
+    Start range:	2a00:6d40:0072:70f0:0000:0000:0000:0001
+    End range:	2a00:6d40:0072:70f0:ffff:ffff:ffff:ffff
+    Gateway:	fe80::1
+
+
+    Public network
+    IP ADDRESS:
+    138.68.254.104 Copy
+    GATEWAY:
+    138.68.240.1 Copy
+    NETMASK:
+    255.255.240.0 Copy
+    Private network
+    Your Droplet must be powered off before enabling private IP network.
+    
+    Public IPv6 network
+    PUBLIC IPV6 ADDRESS:
+    2604:a880:2:d0::65:3001 Copy
+    PUBLIC IPV6 GATEWAY:
+    2604:a880:2:d0::1 Copy
+    CONFIGURABLE ADDRESS RANGE:
+    2604:a880:2:d0::65:3000 - 2604:a880:2:d0::65:300f Copy
+	
+	ip -6 route add default via YOUR_PUBLIC_PIV6_GATEWAY dev eth0
+	ip -6 route add default via 2604:a880:2:d0::1 dev eth0
+
+    modprobe ipv6
+    ip tunnel add he-ipv6 mode sit remote 216.66.80.26 local 80.211.1.240 ttl 255
+    ip link set he-ipv6 up
+    ip addr add 2001:470:1f08:521::2/64 dev he-ipv6
+    ip route add ::/0 dev he-ipv6
+    ip -f inet6 addr
+
+<!-- IPv6-test.com button BEGIN -->
+<a href='http://ipv6-test.com/validate.php?url=referer'><img src='http://ipv6-test.com/button-ipv6-big.png' alt='ipv6 ready' title='ipv6 ready' border='0' /></a>
+<!-- IPv6-test.com button END -->
