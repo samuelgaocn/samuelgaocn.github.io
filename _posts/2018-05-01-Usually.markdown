@@ -1,0 +1,9 @@
+---
+layout: post
+category: "read"
+title:  Linux  常见操作
+tags: [Linux,Centos]
+---
+
+    宝塔面板启动
+    /etc/init.d/bt start
