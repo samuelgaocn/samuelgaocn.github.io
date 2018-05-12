@@ -1,0 +1,17 @@
+---
+layout: post
+category: "read"
+title:  Linux  Midorl 
+tags: [Linux,Centos]
+---
+	
+	Add EPEL and RPMForge repositories
+    Download cert-forensics-tools-release-el6 rpm:
+    https://forensics.cert.org/cert-forensics-tools-release-el6.rpm
+    Install cert-forensics-tools-release-el6 rpm:
+    # rpm -Uvh cert-forensics-tools-release*rpm
+    Install vala rpm package:
+    # yum --enablerepo=forensics install vala
+    yum install libxml2-devel
+    yum install libsqlite3x-devel.x86_64
+    yum install libsoup-devel.x86_64
