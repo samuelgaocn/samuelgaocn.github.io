@@ -1,0 +1,16 @@
+---
+layout: post
+category: "read"
+title:  Linux  PrivateBin 
+tags: [Linux,PrivateBin]
+---
+	
+	下载PrivateBin
+	lps.samuelgao.review
+	指向轻云
+	
+	API 调试
+	https://www.getpostman.com/apps
+
+	#设置环境变量
+    vi /etc/profile
