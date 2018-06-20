@@ -147,4 +147,17 @@ ctrl+b t           显示时钟。然后按enter键后就会恢复到shell终端
 ctrl+b d           脱离当前会话；这样可以暂时返回Shell界面，输入tmux attach能够重新进入之前的会话
 ***************当你发现自己的才华撑不起野心时，就请安静下来学习吧***************
 	
-	
+普通处理方法--在每条cron后面添加输出到空。
+
+>/dev/null 2>&1.
+OR
+&> /dev/null
+
+如：
+*/2 * * * * /usr/local/sbin/ph_monitor.sh >/dev/null 2>&1
+
+更简单的方法：
+crontab -e
+在第一行添加：MAILTO=""
+
+直接把/etc/crontab的收件人置空就ok了，太简单粗暴又直接了。
