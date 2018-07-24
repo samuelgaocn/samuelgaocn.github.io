@@ -5,16 +5,15 @@ title:  Linux  GIF
 tags: [Linux,GIF]
 ---
 
-![1](http://ww1.sinaimg.cn/large/65b52ea3gy1ftko5am98ig20di0g74do.gif)
-
-![2](http://ww1.sinaimg.cn/large/65b52ea3gy1ftko8116peg20dp0g57vc.gif)
-![3](http://ww1.sinaimg.cn/large/65b52ea3gy1ftko810l7vg20cz0g8tvh.gif)
-![4](http://ww1.sinaimg.cn/large/65b52ea3gy1ftko81ozgug20dq0flb29.gif)
-![5](http://ww1.sinaimg.cn/large/65b52ea3gy1ftko81j08bg20e20fc7wh.gif)
-![6](http://ww1.sinaimg.cn/large/65b52ea3gy1ftko815tjag20dp0gnayr.gif)
-![7](http://ww1.sinaimg.cn/large/65b52ea3gy1ftko80visyg20cm0fc4i6.gif)
-![8](http://ww1.sinaimg.cn/large/65b52ea3gy1ftko80lpnvg20cg0fk12p.gif)
-![9](http://ww1.sinaimg.cn/large/65b52ea3gy1ftko81ca78g20dp0h41kx.gif)
-![10](http://ww1.sinaimg.cn/large/65b52ea3gy1ftko81eonug20dv0hch8y.gif)
-
+Delete Link
+[![page.gif](https://i.loli.net/2018/07/24/5b568a75e8b27.gif)](https://i.loli.net/2018/07/24/5b568a75e8b27.gif)
+[![page7.gif](https://i.loli.net/2018/07/24/5b568a764b872.gif)](https://i.loli.net/2018/07/24/5b568a764b872.gif)
+[![page8.gif](https://i.loli.net/2018/07/24/5b568a76befd5.gif)](https://i.loli.net/2018/07/24/5b568a76befd5.gif)
+[![page9.gif](https://i.loli.net/2018/07/24/5b568a76d4b5e.gif)](https://i.loli.net/2018/07/24/5b568a76d4b5e.gif)
+[![paper1.gif](https://i.loli.net/2018/07/24/5b568a7803839.gif)](https://i.loli.net/2018/07/24/5b568a7803839.gif)
+[![paper2.gif](https://i.loli.net/2018/07/24/5b568a780e39e.gif)](https://i.loli.net/2018/07/24/5b568a780e39e.gif)
+[![page3.gif](https://i.loli.net/2018/07/24/5b568a7a4ad6a.gif)](https://i.loli.net/2018/07/24/5b568a7a4ad6a.gif)
+[![page4.gif](https://i.loli.net/2018/07/24/5b568a7a78a9d.gif)](https://i.loli.net/2018/07/24/5b568a7a78a9d.gif)
+[![page5.gif](https://i.loli.net/2018/07/24/5b568a7b0c80d.gif)](https://i.loli.net/2018/07/24/5b568a7b0c80d.gif)
+[![page6.gif](https://i.loli.net/2018/07/24/5b568a7b4551f.gif)](https://i.loli.net/2018/07/24/5b568a7b4551f.gif)
 
